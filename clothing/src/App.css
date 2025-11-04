@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Custom font and global styles to match SSENSE exactly */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Font families */
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-space {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.font-pt-serif {
+  font-family: 'PT Serif', serif;
+}
+
+.font-roboto-mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Funky text effects */
+.text-funky {
+  background: linear-gradient(45deg, #000, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-outline {
+  text-shadow:
+    -1px -1px 0 rgba(255,255,255,0.3),
+    1px -1px 0 rgba(255,255,255,0.3),
+    -1px 1px 0 rgba(255,255,255,0.3),
+    1px 1px 0 rgba(255,255,255,0.3);
+}
+
+/* Exact image aspect ratios */
+.aspect-portrait {
+  aspect-ratio: 2 / 3;
+}
+
+.aspect-landscape {
+  aspect-ratio: 16 / 9;
+}
