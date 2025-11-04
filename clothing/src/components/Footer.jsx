@@ -46,7 +46,7 @@ const Footer = () => {
 
         {/* Copyright and Links */}
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-center">
-          <p className="text-[10px] text-gray-500">© 2025 ssense.com</p>
+          <p className="text-[10px] text-gray-500">© 2025 seadfashion.com</p>
           <a href="#" className="text-[10px] text-gray-500 hover:text-black transition-colors">
             Terms & Conditions
           </a>

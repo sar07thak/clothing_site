@@ -27,7 +27,7 @@ const Header = () => {
           {/* Center Logo */}
           <div className="absolute left-1/2 transform -translate-x-1/2">
             <h1 className="text-[20px] font-bold tracking-tight cursor-pointer">
-              SSENSE
+              SEADFASHION
             </h1>
           </div>
 

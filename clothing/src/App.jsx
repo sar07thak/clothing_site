@@ -154,7 +154,7 @@ const App = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { title: 'WHAT THE SSENSE STAFF IS BUYING THIS SUMMER', label: 'Market' },
+              { title: 'WHAT THE SEADFASHION STAFF IS BUYING THIS SUMMER', label: 'Market' },
               { title: 'LAST-MINUTE WEDDING OUTFITS', label: 'Market' },
               { title: 'BEDROOM PLEASURES', label: 'Market' },
               { title: 'THE NEW ESOTERIC', label: 'Market' }
